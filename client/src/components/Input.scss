@@ -1,0 +1,10 @@
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    input {
+        border: 1px solid rgb(86, 194, 86);
+        padding: 8px;
+        text-align: center;
+    }
+}

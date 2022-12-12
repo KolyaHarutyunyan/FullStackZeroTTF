@@ -1,0 +1,26 @@
+*,
+*:before,
+*:after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0 auto;
+   min-width: 320px;
+   min-height: 100vh;
+   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 500;
+}
+
+button {
+   outline: none;
+   cursor: pointer;
+}
+
+input {
+   outline: none;
+}

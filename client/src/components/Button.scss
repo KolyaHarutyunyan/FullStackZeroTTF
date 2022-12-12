@@ -1,0 +1,9 @@
+.button {
+    border: 1px solid rgb(86, 194, 86);
+    padding: 8px 48px;
+    background-color: inherit;
+    &:hover {
+        background-color: rgb(86, 194, 86);
+        color: rgb(255, 255, 255);
+    }
+}

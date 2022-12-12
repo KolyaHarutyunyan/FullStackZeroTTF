@@ -1,0 +1,8 @@
+{
+  "document": null,
+  "fields": [
+    { "name": "Field 1", "type": "text", "value": "" },
+    { "name": "Field 2", "type": "text", "value": "" },
+    { "name": "Field 3", "type": "text", "value": "" }
+  ]
+}

@@ -1,0 +1,37 @@
+.document-container {
+    max-height: 80vh;
+    min-height: 300px;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: auto;
+    padding: 8px;
+    border: 1px solid rgb(86, 194, 86);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    & div {
+        width: inherit;
+        height: inherit;
+    }
+    & div.react-pdf__Page {
+        & div {
+            display: none;
+        }
+        & canvas {
+            width: inherit!important;
+            height: inherit!important;
+        }
+    }
+    .document-container__file-box {
+        width: 100%;
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
