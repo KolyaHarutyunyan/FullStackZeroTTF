@@ -1,1 +1,8 @@
-{"document":{"url":"blob:http://localhost:9275/949ba98d-0cd1-4ced-a8df-501866f4bd20","id":1670929494801,"type":"application/pdf"},"fields":[{"name":"Field 1","type":"text","value":""},{"name":"Field 2","type":"text","value":""},{"name":"Field 3","type":"text","value":""}]}
+{
+  "document": null,
+  "fields": [
+    { "name": "Field 1", "type": "text", "value": "" },
+    { "name": "Field 2", "type": "text", "value": "" },
+    { "name": "Field 3", "type": "text", "value": "" }
+  ]
+}
