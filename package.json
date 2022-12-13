@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serverDev": "nodemon --require dotenv/config index.js"
+    "serverDev": "nodemon -r dotenv/config index.js",
+    "build:client": "cd ./client && npm run build",
+    "start": "npm run build:client && node -r dotenv/config index.js"
   },
   "keywords": [],
   "author": "",
