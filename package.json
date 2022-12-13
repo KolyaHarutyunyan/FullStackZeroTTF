@@ -6,7 +6,8 @@
   "scripts": {
     "serverDev": "nodemon -r dotenv/config index.js",
     "build:client": "cd ./client && npm run build",
-    "start": "npm run build:client && node -r dotenv/config index.js"
+    "build": "npm run build:client",
+    "start": "node -r dotenv/config index.js"
   },
   "keywords": [],
   "author": "",
