@@ -1,8 +1,1 @@
-{
-  "document": null,
-  "fields": [
-    { "name": "Field 1", "type": "text", "value": "" },
-    { "name": "Field 2", "type": "text", "value": "" },
-    { "name": "Field 3", "type": "text", "value": "" }
-  ]
-}
+{"document":{"url":"blob:http://localhost:9275/a81929fc-8f1a-4b63-b911-981d90604a0b","id":1670930806668,"type":"application/pdf"},"fields":[{"name":"Field 1","type":"text","value":""},{"name":"Field 2","type":"text","value":""},{"name":"Field 3","type":"text","value":""}]}

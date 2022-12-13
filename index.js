@@ -1,6 +1,6 @@
 import express from "express";
 import fs from "fs";
-
+console.log("server prepared to run");
 const app = express();
 
 app.use(express.static("./client/build"));
