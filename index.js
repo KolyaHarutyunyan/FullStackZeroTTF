@@ -1,9 +1,10 @@
-import express from "express";
-import fs from "fs";
-console.log("server prepared to run");
+const express = require("express");
+const fs = require("fs");
+const path = require("path");
+
 const app = express();
 
-app.use(express.static("./client/build"));
+app.use(express.static(path.join(__dirname + "/public")));
 
 app.use(express.json());
 
